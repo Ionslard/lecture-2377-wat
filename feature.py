@@ -6,3 +6,8 @@ def encoding():
     ohe.fit(X_train)
 
     return ohe
+
+
+def Scaling():
+    scaler = StandardScaler()
+    return scaler
